@@ -1,0 +1,84 @@
+h1 {
+  font-family: arial;
+  font-size: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.top-five {
+  font-family: arial;
+  border-left: 6px solid rgb(255, 0, 0);
+  padding: 40px;
+  margin: 30px;
+  border-radius: 8px;
+}
+
+ol {
+  font-size: 18px;
+}
+
+div {
+  display: flex;
+
+}
+
+li {
+  margin-top: 20px;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  border-left: 6px solid rgb(255, 0, 0);
+}
+
+.slide {
+  margin: 0 auto;
+  font-family: arial;
+  
+}
+
+h2 {
+  font-family: arial;
+  font-size: 30px;
+}
+
+footer {
+  font-family: arial;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.wiki-page {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: arial;
+  background-color: rgb(255, 0, 0);
+  color:aliceblue;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-left: 200px;
+}
+
+.wiki-page:hover {
+  cursor: pointer;
+  padding: 1.5rem;
+  opacity: 0.8;
+  transition-duration: 0.15s;
+}
