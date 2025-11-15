@@ -1,10 +1,16 @@
 h1 {
+  
   font-family: arial;
   font-size: 70px;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
   border-radius: 8px;
+
+}
+
+p {
+  max-width: 600px;
 }
 
 .top-five {
@@ -74,6 +80,7 @@ img {
   text-decoration: none;
   margin: 0 auto;
   margin-left: 200px;
+
 }
 
 .wiki-page:hover {
